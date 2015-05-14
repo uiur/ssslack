@@ -17,7 +17,7 @@ app.get('/:id', function (req, res) {
       res.render('index', { snippet: snippet })
     },
     error: function (object, error) {
-      throw error
+      res.status(404).send('Not Found')
     }
   })
 })
