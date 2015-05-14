@@ -1,0 +1,14 @@
+.message {
+  font-size: 15px;
+  line-height: 22px;
+  color: #3d3c40;
+  word-wrap: break-word;
+}
+
+.sender {
+  font-weight: 900;
+}
+
+.content {
+  display: block;
+}

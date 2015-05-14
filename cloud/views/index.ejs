@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ssslack</title>
+    <link rel="stylesheet" href="/style.css" media="screen" title="" charset="utf-8">
+  </head>
+  <body>
+    <% snippet.get('messages').forEach(function(message){ %>
+      <div class="message">
+        <span class="sender">
+          <%= message.sender %>
+        </span>
+
+        <span class="content">
+          <%= message.content %>
+        </span>
+      </div>
+    <% }) %>
+  </body>
+</html>
