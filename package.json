@@ -1,0 +1,22 @@
+{
+  "name": "ssslack-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "devDependencies": {
+    "standard": "^3.8.0"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiureo/ssslack-server.git"
+  },
+  "author": "Kazato Sugimoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uiureo/ssslack-server/issues"
+  },
+  "homepage": "https://github.com/uiureo/ssslack-server"
+}
