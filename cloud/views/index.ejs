@@ -8,13 +8,19 @@
   <body>
     <% snippet.get('messages').forEach(function(message){ %>
       <div class="message">
-        <span class="sender">
-          <%= message.sender %>
-        </span>
+        <% if (message.imageUrl) { %>
+          <img class="image" src="<%= message.imageUrl %>"/>
+        <% } %>
 
-        <span class="content">
-          <%= message.content %>
-        </span>
+        <div class="right">
+          <span class="sender">
+            <%= message.sender %>
+          </span>
+
+          <span class="content">
+            <%= message.content %>
+          </span>
+        </div>
       </div>
     <% }) %>
   </body>

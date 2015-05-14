@@ -1,8 +1,11 @@
 .message {
+  position: relative;
   font-size: 15px;
   line-height: 22px;
   color: #3d3c40;
   word-wrap: break-word;
+  height: 60px;
+  padding-left: 48px;
 }
 
 .sender {
@@ -11,4 +14,15 @@
 
 .content {
   display: block;
+}
+
+.message .image {
+  position: absolute;
+  left: 0;
+  top: 4px;
+
+  width: 36px;
+  height: 36px;
+
+  border-radius: 2px;
 }
