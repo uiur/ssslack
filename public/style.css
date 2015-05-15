@@ -21,6 +21,11 @@ body {
   display: block;
 }
 
+.timestamp {
+  color: #babbbf;
+  font-size: 12px;
+}
+
 .message .image {
   position: absolute;
   left: 0;
