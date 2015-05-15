@@ -7,26 +7,28 @@
     <link href='//fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <% snippet.get('messages').forEach(function(message){ %>
-      <div class="message">
-        <% if (message.imageUrl) { %>
-          <img class="image" src="<%= message.imageUrl %>"/>
-        <% } %>
+    <article class="snippet">
+      <% snippet.get('messages').forEach(function(message){ %>
+        <div class="message">
+          <% if (message.imageUrl) { %>
+            <img class="image" src="<%= message.imageUrl %>"/>
+          <% } %>
 
-        <div class="right">
-          <span class="sender">
-            <%= message.sender %>
-          </span>
+          <div class="right">
+            <span class="sender">
+              <%= message.sender %>
+            </span>
 
-          <span class="timestamp">
-            <%= message.timestamp %>
-          </span>
+            <span class="timestamp">
+              <%= message.timestamp %>
+            </span>
 
-          <span class="content">
-            <%= message.content %>
-          </span>
+            <span class="content">
+              <%= message.content %>
+            </span>
+          </div>
         </div>
-      </div>
-    <% }) %>
+      <% }) %>
+    </article>
   </body>
 </html>

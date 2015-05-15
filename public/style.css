@@ -1,6 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
+  width: 100%;
+  background: #f8f8f8;
 }
 
 .message {
@@ -35,4 +41,14 @@ body {
   height: 36px;
 
   border-radius: 2px;
+}
+
+.snippet {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 18px;
+  width: 60%;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
 }
