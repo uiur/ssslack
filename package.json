@@ -4,7 +4,9 @@
   "description": "",
   "main": "",
   "devDependencies": {
-    "standard": "^3.8.0"
+    "browserify": "^10.2.0",
+    "standard": "^3.8.0",
+    "watchify": "^3.2.1"
   },
   "scripts": {
     "test": "standard"
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/uiureo/ssslack-server/issues"
   },
-  "homepage": "https://github.com/uiureo/ssslack-server"
+  "homepage": "https://github.com/uiureo/ssslack-server",
+  "dependencies": {
+    "domready": "^1.0.8"
+  }
 }

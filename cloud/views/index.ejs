@@ -20,15 +20,18 @@
             </span>
 
             <span class="timestamp">
+              <!-- XSS -->
               <%= message.timestamp %>
             </span>
 
             <span class="content">
-              <%= message.content %>
+              <%- message.content %>
             </span>
           </div>
         </div>
       <% }) %>
     </article>
+
+    <script type="text/javascript" src="/bundle.js"></script>
   </body>
 </html>

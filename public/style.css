@@ -15,7 +15,7 @@ body {
   line-height: 22px;
   color: #3d3c40;
   word-wrap: break-word;
-  height: 60px;
+  min-height: 60px;
   padding-left: 48px;
 }
 
