@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   width: 100%;
   background: #f8f8f8;
+  margin: 0;
 }
 
 .message {
@@ -46,9 +47,17 @@ body {
 .snippet {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 40px;
+
   padding: 12px 18px;
   width: 60%;
   background: #fff;
   border: 1px solid #e1e1e1;
   border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .snippet {
+    width: 98%;
+  }
 }
