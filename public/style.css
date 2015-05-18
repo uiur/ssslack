@@ -31,6 +31,7 @@ body {
 .timestamp {
   color: #babbbf;
   font-size: 12px;
+  margin-left: 6px;
 }
 
 .message .image {
