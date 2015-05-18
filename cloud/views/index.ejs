@@ -5,32 +5,34 @@
     <title>ssslack</title>
     <link rel="stylesheet" href="/style.css" media="screen" title="" charset="utf-8">
     <link href='//fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+    <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script>
   </head>
   <body>
-    <article class="snippet">
-      <% snippet.get('messages').forEach(function(message){ %>
-        <div class="message">
-          <% if (message.imageUrl) { %>
-            <img class="image" src="<%= message.imageUrl %>"/>
-          <% } %>
+    <main id="root">
+      <article class="snippet">
+        <% snippet.get('messages').forEach(function(message){ %>
+          <div class="message">
+            <% if (message.imageUrl) { %>
+              <img class="image" src="<%= message.imageUrl %>"/>
+            <% } %>
 
-          <div class="right">
-            <span class="sender">
-              <%= message.sender %>
-            </span>
+            <div class="right">
+              <span class="sender">
+                <%= message.sender %>
+              </span>
 
-            <span class="timestamp">
-              <!-- XSS -->
-              <%= message.timestamp %>
-            </span>
+              <span class="timestamp">
+                <%= message.timestamp %>
+              </span>
 
-            <span class="content">
-              <%- message.content %>
-            </span>
+              <span class="content">
+                <%= message.content %>
+              </span>
+            </div>
           </div>
-        </div>
-      <% }) %>
-    </article>
+        <% }) %>
+      </article>
+    </main>
 
     <script type="text/javascript" src="/bundle.js"></script>
   </body>

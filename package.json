@@ -22,6 +22,11 @@
   },
   "homepage": "https://github.com/uiureo/ssslack-server",
   "dependencies": {
-    "domready": "^1.0.8"
+    "dompurify": "^0.6.3",
+    "domready": "^1.0.8",
+    "es5-shim": "^4.1.1",
+    "html-to-vdom": "^0.5.5",
+    "parse": "^1.4.2",
+    "virtual-dom": "^2.0.1"
   }
 }
