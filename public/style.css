@@ -57,6 +57,12 @@ body {
   border-radius: 6px;
 }
 
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
 @media (max-width: 768px) {
   .snippet {
     width: 98%;
