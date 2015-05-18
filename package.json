@@ -1,5 +1,5 @@
 {
-  "name": "ssslack-server",
+  "name": "ssslack",
   "version": "1.0.0",
   "description": "",
   "main": "",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiureo/ssslack-server.git"
+    "url": "https://github.com/uiureo/ssslack.git"
   },
   "author": "Kazato Sugimoto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uiureo/ssslack-server/issues"
+    "url": "https://github.com/uiureo/ssslack/issues"
   },
-  "homepage": "https://github.com/uiureo/ssslack-server",
+  "homepage": "https://github.com/uiureo/ssslack",
   "dependencies": {
     "dompurify": "^0.6.3",
     "domready": "^1.0.8",
