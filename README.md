@@ -16,7 +16,12 @@ This project is inspired by [iiirc](https://github.com/iiirc/iiirc).
 https://ssslack.parseapp.com/g5BWxwAB6y
 
 ## Try
-Use [chrome-extension](https://github.com/uiureo/ssslack-chrome-extension) to upload your logs.
+Copy like below and paste here.
+https://ssslack.parseapp.com/new
+[![Gyazo](https://i.gyazo.com/a1451fdb829fcdb8d580fee7e970e1b2.png)](https://gyazo.com/a1451fdb829fcdb8d580fee7e970e1b2)
+
+
+There is also [chrome-extension](https://github.com/uiureo/ssslack-chrome-extension).
 
 ## License
 MIT
