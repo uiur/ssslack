@@ -12,12 +12,14 @@ body {
 
 .message {
   position: relative;
+
+  padding-left: 48px;
+  margin-bottom: 8px;
+
   font-size: 15px;
   line-height: 22px;
   color: #3d3c40;
   word-wrap: break-word;
-  min-height: 60px;
-  padding-left: 48px;
 }
 
 .message-without-image {
@@ -31,6 +33,7 @@ body {
 .content {
   display: block;
   white-space: pre-wrap;
+  margin-top: -2px;
 }
 
 .timestamp {
