@@ -26,6 +26,8 @@
     "domready": "^1.0.8",
     "es5-shim": "^4.1.1",
     "html-to-vdom": "^0.5.5",
+    "mercury": "^14.0.0",
+    "page": "^1.6.3",
     "parse": "^1.4.2",
     "virtual-dom": "^2.0.1"
   }

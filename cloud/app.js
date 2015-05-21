@@ -7,6 +7,10 @@ app.set('views', 'cloud/views')
 app.set('view engine', 'ejs')
 app.use(express.bodyParser())
 
+app.get('/new', function (req, res) {
+  res.render('new')
+})
+
 app.get('/:id', function (req, res) {
   var id = req.params.id
   var Snippet = Parse.Object.extend('Snippet')

@@ -20,12 +20,17 @@ body {
   padding-left: 48px;
 }
 
+.message-without-image {
+  padding-left: 0;
+}
+
 .sender {
   font-weight: 900;
 }
 
 .content {
   display: block;
+  white-space: pre-wrap;
 }
 
 .timestamp {
@@ -57,10 +62,42 @@ body {
   border-radius: 6px;
 }
 
+.title {
+  margin: 12px 0;
+  font-size: 24px;
+  color: #555;
+}
+
 footer {
   margin-top: 20px;
   text-align: center;
   font-size: 12px;
+}
+
+.post-form {
+  margin-top: 40px;
+}
+
+.post-form-submit {
+  float: right;
+}
+
+.input-title {
+  margin-bottom: 8px;
+}
+
+.input-body.input-body {
+  height: 400px;
+}
+
+.input-preview {
+  padding: 6px 12px;
+  height: 400px;
+  border: 1px solid #ccc;
+  overflow: scroll;
+  background: #fff;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 768px) {
