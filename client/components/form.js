@@ -55,7 +55,7 @@ Form.render = function (state) {
       h('.col-md-6',
         h('textarea.form-control.input-body', {
           name: 'body',
-          placeholder: 'Paste here',
+          placeholder: 'slackbot [8:00 PM]\npaste here\n\nslackbot [8:01 PM]\nlike this\n',
           value: state.body,
           'ev-event': hg.sendValue(state.channels.body)
         })
