@@ -7,6 +7,8 @@ var createElement = require('virtual-dom/create-element')
 
 var hg = require('mercury')
 
+var autolinker = require('autolinker')
+
 var VNode = require('virtual-dom/vnode/vnode')
 var VText = require('virtual-dom/vnode/vtext')
 
@@ -65,7 +67,7 @@ function renderSnippet (snippet) {
       return h('.message.message-without-image', [
         h('span.sender', message.sender),
         h('span.timestamp', message.timestamp),
-        h('span.content', message.content)
+        h('span.content', convertHTML('<span>' + autolinker.link(message.content, { stripPrefix: false }) + '</span>'))
       ])
     }
   })
